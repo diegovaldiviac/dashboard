@@ -1,0 +1,12 @@
+{
+  "plugins": [ "eslint-plugin-react" ],
+  "extends": [
+    "plugin: eslint-plugin-react/recommended",
+    "eslint: recommended"
+  ],
+  "rules": {
+    "no-console": "warn"
+  }
+
+
+}
