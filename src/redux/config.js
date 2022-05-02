@@ -1,5 +1,5 @@
-import translations from "translations"
-import themes from "themes"
+import translations from "../translations"
+import themes from "../themes"
 
 const ACTIONS = {
   SAVE_THEME: "THEME/SAVE",
