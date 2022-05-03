@@ -1,0 +1,16 @@
+{
+  "general": "Le General",
+  "views": {
+    "dashboard": {
+      "test1": "Le PresentationEnglish1",
+      "test2": "Le PresentationEnglish2"
+    },
+    "login": {
+      "login": "loginne",
+      "email": "le email",
+      "password": "le password"
+    },
+    "newPassword": {}
+  },
+  "components": {}
+}

@@ -1,5 +1,5 @@
-import translations from "../translations"
-import themes from "../themes"
+import translations from "../translations/enum"
+import themesEnum from "../themes/enum"
 
 const ACTIONS = {
   SAVE_THEME: "THEME/SAVE",
@@ -7,24 +7,24 @@ const ACTIONS = {
 }
 
 const initialState = {
-  theme: themes.normal,
-  language: translations.en_US
+  theme: themesEnum.LIGHT,
+  language: translations.EN_US
 }
 
 export default function configReducer(state = initialState, action) {
   switch(action.type) {
-    case ACTIONS.SAVE_THEME:
-      return {
-        ...state,
-        theme: action.payload
-      }
-    case ACTIONS.SAVE_LANGUAGE:
-      return {
-        ...state,
-        language: action.payload
-      }
-    default:
-      return state
+  case ACTIONS.SAVE_THEME:
+    return {
+      ...state,
+      theme: action.payload
+    }
+  case ACTIONS.SAVE_LANGUAGE:
+    return {
+      ...state,
+      language: action.payload
+    }
+  default:
+    return state
   }
 }
 

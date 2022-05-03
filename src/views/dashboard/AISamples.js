@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function AISamples() {
-	return (
-		<div>
+  return (
+    <div>
 			AISamples
-		</div>
-	)
+    </div>
+  )
 }

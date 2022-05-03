@@ -1,0 +1,16 @@
+{
+  "general": "General",
+  "views": {
+    "dashboard": {
+      "test1": "PresentationEnglish1",
+      "test2": "PresentationEnglish2"
+    },
+    "login": {
+      "login": "login",
+      "email": "email",
+      "password": "password"
+    },
+    "newPassword": {}
+  },
+  "components": {}
+}

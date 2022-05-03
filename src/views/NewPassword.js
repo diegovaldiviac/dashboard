@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function NewPassword() {
-	return (
-		<div>
+  return (
+    <div>
 			New Password
-		</div>
-	)
+    </div>
+  )
 }
