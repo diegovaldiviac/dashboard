@@ -6,9 +6,9 @@
       "test2": "PresentationEnglish2"
     },
     "login": {
-      "login": "login",
-      "email": "email",
-      "password": "password"
+      "login": "Login",
+      "email": "Email",
+      "password": "Password"
     },
     "newPassword": {}
   },

@@ -1,0 +1,22 @@
+{
+  "development": {
+    "endpoints": [
+      {
+        "name": "msApi",
+        "endpoint": "https://api-dev.mailsecur.net",
+        "region": "us-east-2",
+        "service": "execute-api"
+      }
+    ]
+  },
+  "production": {
+    "endpoints": [
+      {
+        "name": "msApi",
+        "endpoint": "https://api.mailsecur.net",
+        "region": "us-east-2",
+        "service": "execute-api"
+      }
+    ]
+  }
+}

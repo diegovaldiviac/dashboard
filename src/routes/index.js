@@ -7,13 +7,13 @@ import { Routes, Route } from "react-router-dom"
 import routesEnum from "./enum"
 
 export default function AppRoutes () {
-	return (
-		<Routes>
-			<Route path={routesEnum.DASHBOARD} element={<Dashboard/>}>
-				<Route path={routesEnum.DASHBOARD_AI_SAMPLES} element={<AISamples/>}/>
-			</Route>
-			<Route exact path={routesEnum.LOGIN} element={<Login/>}/>
-			<Route exact path={routesEnum.NEW_PASSWORD} element={<NewPassword/>}/>
-		</Routes>
-	)
+  return (
+    <Routes>
+      <Route path={routesEnum.DASHBOARD} element={<Dashboard/>}>
+        <Route path={routesEnum.DASHBOARD_AI_SAMPLES} element={<AISamples/>}/>
+      </Route>
+      <Route exact path={routesEnum.LOGIN} element={<Login/>}/>
+      <Route exact path={routesEnum.NEW_PASSWORD} element={<NewPassword/>}/>
+    </Routes>
+  )
 }

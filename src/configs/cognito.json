@@ -1,0 +1,16 @@
+{
+  "development": {
+    "mandatorySignId": true,
+    "region": "us-east-2",
+    "userPoolId": "us-east-2_mgB4qATm6",
+    "userPoolWebClientId": "pbho4i43u5m2ockdikqe4jum6",
+    "identityPoolId": "us-east-2:927ae621-ce49-4e03-b4da-94f43139d555"
+  },
+  "production": {
+    "mandatorySignId": true,
+    "region": "us-east-2",
+    "userPoolId": "us-east-2_k12zoue2J",
+    "userPoolWebClientId": "7s9e6lg1ntc8kq1u14ipf00atq",
+    "identityPoolId": "us-east-2:8557c855-d729-4fb7-85d3-02100c523235"
+  }
+}

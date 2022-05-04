@@ -22,7 +22,7 @@ export default function msProxy(props) {
   const config = useSelector((store) => store.config)
 
   const getTheme = (fileName) => {
-    const msTheme = require(`themes/${fileName}.json`)
+    const msTheme = require(`./themes/${fileName}.json`)
     return createTheme(msTheme)
   }
   const theme = getTheme(config.theme)
@@ -48,17 +48,13 @@ export default function msProxy(props) {
   }
 
   const getMessages = (fileName) => {
-    return require(`translations/${fileName}.json`)
+    return require(`./translations/${fileName}.json`)
   }
   let messages = getMessages(config.language)
   messages = flattenMessages(messages)
 
   return (
-    <IntlProvider
-      locale={config.language}
-      key={config.language}
-      messages={messages}
-    >
+    <IntlProvider locale={config.language} key={config.language} messages={messages}>
       <ThemeProvider theme={theme}>
         {props.children}
       </ThemeProvider>
