@@ -1,6 +1,7 @@
 {
   "DASHBOARD": "/",
   "DASHBOARD_AI_SAMPLES": "ai-samples",
+  "DASHBOARD_SETTINGS": "settings",
   "LOGIN": "/login",
   "NEW_PASSWORD": "/new-password"
 }

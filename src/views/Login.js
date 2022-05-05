@@ -15,7 +15,6 @@ export default function Login() {
 
   const handleSubmit = async (email, password) => {
     const auth = await Auth.signIn(email, password)
-    console.log(auth)
     dispatch(saveAuth(auth))
     const navigationURI = auth.challengeName === "NEW_PASSWORD_REQUIRED" ? routesEnum.NEW_PASSWORD: routesEnum.DASHBOARD
     navigate(navigationURI)
