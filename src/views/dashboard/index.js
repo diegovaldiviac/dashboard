@@ -18,6 +18,7 @@ export default function Dashboard() {
     navigate(routesEnum.LOGIN)
   }
 
+  // TODO: HOW TO USE OUTLET TO NAVIGATE WITHIN CHILDS
   useEffect(() => {
     navigate(routesEnum.DASHBOARD_SETTINGS)
   }, [])

@@ -10,7 +10,10 @@
       "email": "le email",
       "password": "le password"
     },
-    "newPassword": {}
+    "newPassword": {
+      "newPassword": " Le Enter new password",
+      "save": "Le save"
+    }
   },
   "components": {}
 }
