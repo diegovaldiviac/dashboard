@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { AppBar, Toolbar, Button } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
+import { useIntl } from 'react-intl'
 import { Auth } from 'aws-amplify'
 import { saveAuth } from 'redux/auth'
 import routesEnum from 'routes/enum'
@@ -11,6 +12,7 @@ export default function Dashboard() {
 
   const navigate = useNavigate()
   const dispatch = useDispatch()
+  const intl = useIntl()
 
   const handleLogOut = async () => {
     dispatch(saveAuth(null))
@@ -27,7 +29,7 @@ export default function Dashboard() {
     <div>
       <AppBar position="static">
         <Toolbar sx={{ justifyContent: "right" }}>
-          <Button color="inherit" onClick={handleLogOut}>Sign Out</Button>
+          <Button color="inherit" onClick={handleLogOut}>{intl.formatMessage({id: "views.dashboard.signOut"})}</Button>
         </Toolbar>
       </AppBar>
       <Outlet />

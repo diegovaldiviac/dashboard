@@ -2,8 +2,15 @@
   "general": "Le General",
   "views": {
     "dashboard": {
-      "test1": "Le PresentationEnglish1",
-      "test2": "Le PresentationEnglish2"
+      "signOut": "TESTING",
+      "aiSamples": {
+        "test": "Test"
+      },
+      "settings": {
+        "settings": "Réglages",
+        "english": "Anglais",
+        "french": "Frances"
+      }
     },
     "login": {
       "login": "loginne",

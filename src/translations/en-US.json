@@ -2,8 +2,15 @@
   "general": "General",
   "views": {
     "dashboard": {
-      "test1": "PresentationEnglish1",
-      "test2": "PresentationEnglish2"
+      "signOut": "Sign Out",
+      "aiSamples": {
+        "test": "Test"
+      },
+      "settings": {
+        "settings": "Settings",
+        "english": "English",
+        "french": "French"
+      }
     },
     "login": {
       "login": "Login",

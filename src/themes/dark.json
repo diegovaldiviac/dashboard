@@ -1,3 +1,11 @@
 {
-
-}
+    "palette": {
+      "mode": "dark",
+      "background": {
+        "paper": "#222"
+      },
+      "text": {
+        "primary": "#fff"
+      }
+    }
+  }

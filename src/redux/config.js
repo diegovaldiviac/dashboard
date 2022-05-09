@@ -1,4 +1,4 @@
-import translations from "../translations/enum"
+import translationsEnum from "../translations/enum"
 import themesEnum from "../themes/enum"
 
 const ACTIONS = {
@@ -8,7 +8,7 @@ const ACTIONS = {
 
 const initialState = {
   theme: themesEnum.LIGHT,
-  language: translations.EN_US
+  language: translationsEnum.EN_US
 }
 
 export default function configReducer(state = initialState, action) {
